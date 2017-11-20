@@ -24,8 +24,6 @@ public class BD extends SQLiteOpenHelper{
     public static final String COLUNA_PRECO_PRODUTO = "contato";
 
 
-
-
     public BD(Context context) {
         super(context, NOME_BD, null, VERSAO_BD);
     }
@@ -47,11 +45,15 @@ public class BD extends SQLiteOpenHelper{
                         + COLUNA_CODIGO_PRODUTO + " TEXT, "
                         + COLUNA_PRECO_PRODUTO + " TEXT " + " ) "
         );
-
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
+        /*
+        * Destruindo as tabelas, e construindo novamente caso haja atualização de banco de dados.
+        * */
+        db.execSQL("drop table "+TABELA_SUPERMERCADO+ " ");
+        db.execSQL("drop table "+TABELA_PRODUTO+ " ");
+        onCreate(db);
     }
 }
