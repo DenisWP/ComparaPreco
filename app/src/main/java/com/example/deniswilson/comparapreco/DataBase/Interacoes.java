@@ -6,5 +6,15 @@ package com.example.deniswilson.comparapreco.DataBase;
 
 public class Interacoes {
 
+    public void InserirSupermercado (){}
+    public void AtualizarSupermercado (){}
+    public void ExcluirSupermercado (){}
+    public void ListarSupermercado (){}
+
+    public void InserirProduto (){}
+    public void AtualizarProduto (){}
+    public void ExcluirProduto (){}
+    public void ListarProduto (){}
+
 
 }
