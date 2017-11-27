@@ -33,5 +33,10 @@ public class TelaInicial extends AppCompatActivity {
     }
 
 
+    /**
+     * Created by denis.wilson on 27/11/2017.
+     */
 
+    public static class CadastroPreco {
+    }
 }
