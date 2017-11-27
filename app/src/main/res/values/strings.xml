@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ComparaPreco</string>
+
+    <string name="CodigoBarras">Código de Barras</string>
+    <string name="Preco">Preço</string>
+    <string name="Salvar">Salvar</string>
 </resources>
