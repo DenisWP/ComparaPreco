@@ -13,25 +13,15 @@ public class Interacoes {
     public Interacoes(SQLiteDatabase conexao){
         this.conexao = conexao;
     }
-    /*
-    * Interações CRUD dos supermercados
-    * */
+
+
+
     public void InserirSupermercado (){
 
     }
-    /*public void AtualizarSupermercado (){}
-    public void ExcluirSupermercado (){}
-    public void ListarSupermercado (){}*/
 
-    /*
-    * Interações CRUD dos produtos.
-    * */
     public void InserirProduto (){
 
     }
-    /*public void AtualizarProduto (){}
-    public void ExcluirProduto (){}
-    public void ListarProduto (){}*/
-
 
 }
