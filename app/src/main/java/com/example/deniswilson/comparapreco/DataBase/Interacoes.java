@@ -19,15 +19,9 @@ public class Interacoes {
     public void InserirSupermercado (){
 
     }
-    public void AtualizarSupermercado (){
-
-    }
-    public void ExcluirSupermercado (){
-
-    }
-    public void ListarSupermercado (){
-
-    }
+    /*public void AtualizarSupermercado (){}
+    public void ExcluirSupermercado (){}
+    public void ListarSupermercado (){}*/
 
     /*
     * Interações CRUD dos produtos.
@@ -35,15 +29,9 @@ public class Interacoes {
     public void InserirProduto (){
 
     }
-    public void AtualizarProduto (){
-
-    }
-    public void ExcluirProduto (){
-
-    }
-    public void ListarProduto (){
-
-    }
+    /*public void AtualizarProduto (){}
+    public void ExcluirProduto (){}
+    public void ListarProduto (){}*/
 
 
 }

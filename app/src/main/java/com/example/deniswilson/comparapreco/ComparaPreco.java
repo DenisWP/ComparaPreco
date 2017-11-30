@@ -18,8 +18,6 @@ public class ComparaPreco extends AppCompatActivity {
         edtCodigoBarras = (EditText) findViewById(R.id.edtCodigoBarra);
         edtPreco = (EditText) findViewById(R.id.edtPreco);
         btnSalvar = (Button) findViewById(R.id.btnSalvar);
-
-
     }
 
 }
